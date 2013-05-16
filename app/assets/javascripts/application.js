@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require ./libs/handlebars-1.0.0-rc.3
+//= require ./libs/ember-1.0.0-rc.3
+//= require	app

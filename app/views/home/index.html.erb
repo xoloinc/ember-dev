@@ -1,0 +1,26 @@
+<header>
+  <h1>Igor's Blog</h1>
+</header>
+
+<script type="text/x-handlebars">
+<div id="wrapper_small">
+<ul class="nav well">
+	{{#each model}}
+		{{render "user" this}}
+	{{/each}}
+</ul>
+</div>
+</script>
+
+<footer>
+  &copy;2013 Igor's Publishing, Inc.
+</footer>
+
+<script type="text/x-handlebars" data-template-name="Teams">
+	Du ser inte detta!
+</script>
+<script type="text/x-handlebars" data-template-name="user">
+	<li>
+			{{id}} {{first}} {{last}}
+	</li>
+</script>
